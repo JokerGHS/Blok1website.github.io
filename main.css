@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    top: 8%;
+    padding: 10px;
+    background: #D6E9FE;
+    background-blend-mode: screen;
+}
+
+.menu {
+    margin-top: 10px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu > li {
+    
+    display: inline;
+    margin-right: 50px;
+}
+
+.menu > li:last-of-type{
+    margin-right: 0;
+}
+
