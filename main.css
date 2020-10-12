@@ -19,9 +19,6 @@ body, html {
 .sbg {
     background-image: url("img/DSCF1131.JPG");
     
-    height: 100%;
-
-    
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
