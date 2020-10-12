@@ -11,13 +11,21 @@ li, a, button {
     text-decoration: none;
 }
 
-.parallax_sbg {
+
+body, html {
+     height: 100;
+}
+
+.sbg {
     background-image: url("img/DSCF1131.JPG");
-    background-repeat: no-repeat;
+    
+    height: 100%;
+
+    
     background-attachment: fixed;
-    background-size: 100%;
-
-
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 
 .nav { 
