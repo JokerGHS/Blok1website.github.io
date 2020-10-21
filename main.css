@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster+Two&family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster+Two&family=Raleway&display=swap");
 
 * {
   box-sizing: border-box;
@@ -66,28 +66,30 @@ button:hover {
 }
 
 .c_one {
-width: 100%;
-margin-top: 700px;
-display: grid;
-grid-template-columns: 60% 40%;
+  width: 100%;
+  margin-top: 700px;
+  display: grid;
+  grid-template-columns: 60% 40%;
 }
 
 .text_box {
   background: white;
   padding: 80px;
 }
+
 .text_box > h2 {
   padding-bottom: 10px;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 90px;
   font-weight: 200;
 }
+
 .text_box > h3 {
   font-family: "Lobster Two", cursive;
   font-size: 30px;
   font-weight: 100;
- 
 }
+
 .text_box > p {
   font-family: "Raleway", sans-serif;
 }
