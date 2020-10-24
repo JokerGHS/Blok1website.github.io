@@ -1,6 +1,6 @@
 .jbg {
     width: 100%;
-    background-image: url(images/IMG_amazing.jpg);
+    background-image: url(img/IMG_amazing.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -163,7 +163,7 @@
 /*conctact.css*/
 
 .bodcont {
-    background-image: url(images/mercure-discover-local-nl-bc45.jpg);
+    background-image: url(img/mercure-discover-local-nl-bc45.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -219,7 +219,7 @@
 /* project */
 
 .secp1 {
-    background-image: url(images/1280px-Ryde_beach_at_sunrise_panorama.jpg);
+    background-image: url(img/1280px-Ryde_beach_at_sunrise_panorama.jpg);
     width: 100%;
 
     grid-template-columns: 1fr 1fr;
@@ -232,7 +232,7 @@
 }
 
 .secp2 {
-    background-image: url(images/gettyimages-580833893.jpg);
+    background-image: url(img/gettyimages-580833893.jpg);
     background-size: cover;
     width: 100%;
     grid-template-columns: 1fr 1fr;
@@ -246,7 +246,7 @@
 }
 
 .secp3 {
-    background-image: url(images/sunset.jpg);
+    background-image: url(img/sunset.jpg);
     width: 100%;
     grid-template-columns: 1fr 1fr;
     text-align: center;
@@ -259,7 +259,7 @@
 }
 
 .secp4 {
-    background-image: url(images/Sunset_2007-1.jpg);
+    background-image: url(img/Sunset_2007-1.jpg);
     background-size: cover;
     width: 100%;
     grid-template-columns: 1fr 1fr;
