@@ -160,6 +160,47 @@
     grid-area: imgst3;
 }
 
+@media (min-width: 1500px) {
+
+    .secin {
+        display: grid;
+    }
+
+    .omg1 {
+        display: grid;
+    }
+}
+
+@media (max-width: 1500px) {
+
+    .secin {
+        grid-template-areas: "divimg""divin";
+        text-align: center;
+    }
+
+    .omg1 {
+        grid-template-areas: "imgst1""imgst2""imgst3";
+    }
+}
+
+@media (max-width: 550px) {
+    .imgvr {
+        width: 250px;
+    }
+
+    .imgmid {
+        width: 250px;
+    }
+
+    .imgnu {
+        width: 250px;
+    }
+
+    .imgdiv {
+        width: 250px;
+    }
+}
+
 /*conctact.css*/
 
 .bodcont {
