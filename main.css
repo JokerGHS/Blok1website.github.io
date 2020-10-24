@@ -37,7 +37,7 @@
   margin-right: auto;
 }
 .logo > img {
-  height: 70px;
+  height: 80px;
 }
 
 .menu {
@@ -255,6 +255,7 @@ button:hover {
 
 .logo_footer {
   margin-top: 100px;
+  height: 80px;
 }
 
 .menu_footer {
