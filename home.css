@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-.sbg {
+.bg {
     background-image: url("img/dima-dallacqua-mf8hKbEw7So-unsplash.jpg");
 
     background-attachment: fixed;
@@ -16,15 +16,17 @@
 .choose {
     grid-template-columns: 1fr 1fr;
     justify-items: center;
-    margin-top: 25%;
+    margin: auto;
 
 }
+
 .clickme {
     color: whitesmoke;
     text-align: center;
     opacity: 0;
     font-size: 90px;
 }
+
 .logo {
     width: 500px;
 }
@@ -32,25 +34,28 @@
 #jacco:hover {
     animation: takenjacco 2.0s ease;
 }
+
 #simon:hover {
     margin-bottom: 10%;
     animation: takenjacco 2.0s ease;
 }
-#jacco:hover > .clickme {
+
+#jacco:hover>.clickme {
     opacity: 1;
     animation: clickme 2.0s ease;
 }
-#simon:hover > .clickme{
+
+#simon:hover>.clickme {
     opacity: 1;
     animation: clickme 2.0s ease;
 }
 
 @keyframes takenjacco {
-    from{
+    from {
         transform: rotateZ(0deg);
     }
 
-    to{
+    to {
         transform: rotateZ(360deg);
     }
 }
@@ -60,19 +65,21 @@
         opacity: 0;
         transform: translateZ(-100%);
     }
+
     to {
         opacity: 1;
         transform: translateZ(0%);
     }
 }
 
-@media (min-width: 1000px){
-.choose {
-    display: grid;
-    
+@media (min-width: 1000px) {
+    .choose {
+        display: grid;
+
+    }
 }
-}
-@media (max-width: 1000px){
+
+@media (max-width: 1000px) {
     .choose {
         display: flex;
         flex-direction: column;
