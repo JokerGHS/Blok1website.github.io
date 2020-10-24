@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster+Two&family=Raleway&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.nav_font {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fdffff;
+  text-decoration: none;
+}
+
+.sbg {
+  background-image: url("img/DSCF1131.JPG");
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav {
+  width: 100%;
+  padding: 30px 10%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+.logo > img {
+  height: 80px;
+}
+
+.menu {
+  list-style: none;
+}
+
+.menu > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(100, 182, 172, 1);
+  border: none;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(100, 182, 172, 0.8);
+}
+
+.c_one {
+  width: 100%;
+  margin-top: 700px;
+  grid-template-columns: 1.5fr 1fr;
+  grid-template-areas: "text_box img_box";
+}
+
+.text_box {
+  background: white;
+  padding: 80px;
+  grid-area: text_box;
+}
+
+.text_box_button {
+  margin-left: 35%;
+  margin-top: 45px;
+  padding: 15px 32px;
+  font-size: 18px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.text_box > h2 {
+  padding-bottom: 10px;
+  font-family: "Dancing Script", cursive;
+  font-size: 90px;
+  font-weight: 200;
+  color: #5d737e;
+}
+
+.text_box > h3 {
+  padding-bottom: 10px;
+  font-family: "Lobster Two", cursive;
+  font-size: 30px;
+  font-weight: 100;
+  color: #5d737e;
+}
+
+.text_box > p {
+  font-family: "Raleway", sans-serif;
+  padding-top: 10px;
+  font-size: 18px;
+  color: #5d737e;
+}
+
+.img_box {
+  margin: auto;
+  height: 100%;
+  background-color: white;
+  grid-area: img_box;
+
+  /* object-fit: cover; */
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.img_box > img {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.c_two {
+  background-color: #64b6ac;
+  width: 100%;
+  display: grid;
+}
+
+.ctwo_title {
+  justify-self: center;
+  margin-top: 110px;
+  margin-bottom: 80px;
+  
+}
+
+.ctwo_title > h2 {
+  font-family: "Dancing Script", cursive;
+  color: #fcfffd;
+  font-size: 50px;
+}
+
+.ctwo_service {
+  border: #fdfffd 4px solid;
+  text-align: center;
+  padding: 40px;
+}
+.service_title {
+  font-family: "Lobster Two", cursive;
+  color: #fdfffd;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.ctwo_service > p {
+  padding: 20px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  color: #fdfffd;
+}
+
+.services {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+  margin-left: 141px;
+  margin-right: 141px;
+  margin-bottom: 80px;
+}
+
+
+.services_button {
+  margin: 20px;
+  font-size: 18px;
+  background-color: rgba(218, 255, 239, 1);
+  color: #5d737e;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.services_button:hover {
+  background-color: rgba(218, 255, 239, 0.8);
+}
+
+.box_cards {
+  text-align: center;
+  background-color: #65ffbc;
+  margin: 80px;
+  width: auto;
+
+  grid-template-columns: 1fr 1fr;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2),
+    0 6px 20px 0 rgba(255, 255, 255, 0.9);
+}
+.cards_title {
+  font-family: "Dancing Script", cursive;
+  color: #232b2f;
+  font-size: 50px;
+  margin-top: 90px;
+  margin-bottom: 10px;
+  grid-column: 1/3;
+}
+
+.img_polaroid {
+  margin: 20px;
+}
+
+.p_img {
+  background-color: #232b2f;
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+  padding: 10px;
+
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.nametag {
+  background-color: black;
+  color: white;
+  display: inline;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.img_cover {
+  text-align: center;
+  opacity: 0;
+  position: relative;
+  transform: translate(0%, -15em);
+}
+
+.img_polaroid:hover .p_img {
+  opacity: 0.3;
+}
+
+.img_polaroid:hover .img_cover {
+  opacity: 1;
+}
+
+.footer {
+  background-color: #5d737e;
+  text-align: center;
+}
+
+.footer > hr {
+  width: 25%;
+  margin: auto;
+}
+
+.logo_footer {
+  margin-top: 100px;
+  height: 80px;
+}
+
+.menu_footer {
+  list-style: none;
+}
+
+.menu_footer > li {
+  display: inline-block;
+  padding: 0px 20px;
+  margin: 20px;
+}
+
+@media screen and (min-width: 1300px) {
+  .c_one, .box_cards, .c_two, .services {
+    display: grid;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .c_one {
+    grid-template-areas: "text_box" "img_box";
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .cards_title{
+    margin: auto;
+  }
+  .cards_title > h2 {
+    font-size: 40px;
+  }   
+  .p_img {
+        height: 400px;
+        width: 400px;
+     }
+
+}
+
+@media screen and (max-width: 700px) {
+
+  .cards_title > h2 {
+    font-size: 40px;
+  }   
+  .p_img {
+        height: 200px;
+        width: 200px;
+     }
+
+}
+
+@media screen and (max-width: 700px) {
+
+ .ctwo_title > h2 {
+   text-align: center;
+   font-size: 30px;
+ }
+  
+  .services {
+   margin: auto;
+   margin-bottom: 50px;
+  }
+  .box_cards {
+    display: grid;
+    margin: auto;
+  }
+  .cards_title > h2 {
+    font-size: 20px;
+  }   
+  .p_img {
+        height: 100%;
+        width: 100%;
+     }
+
+  
+
+}
+
