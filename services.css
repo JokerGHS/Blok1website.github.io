@@ -23,7 +23,6 @@
 }
 
 .s_article_grid {
-  display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 1em;
   margin: 30px 90px;
@@ -49,7 +48,7 @@
 
 .services_box {
   background-color: #64b6ac;
-  text-align: center;
+  text-align: justify;
   color: white;
   margin-bottom: 60px;
   padding: 40px 60px;
@@ -105,3 +104,47 @@
     transform: rotate(45deg);
   }
 }
+
+.para {
+  grid-area: para;
+}
+.para1 {
+  grid-area: para1;
+}
+
+@media screen and (max-width: 1700px) {
+ 
+  .all_services {
+    
+    margin: 60px auto;
+    
+  }
+
+}
+
+@media screen and (min-width: 700px) {
+  .s_article_grid {
+    display: grid;
+    grid-template-areas: "para para1";
+  }
+}
+@media screen and (max-width: 700px) {
+  .s_article_grid {
+    padding: auto;
+    grid-template-areas: "para" "para1";
+  }
+  .s_article_grid {
+    margin: 30px auto;
+}
+}
+ @media screen and (max-width: 500px) {
+  .all_services {
+    
+    padding: 0;
+    
+  }
+  .services_box > p {
+    text-align: justify;
+    font-size: 10px;
+  }
+ }

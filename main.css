@@ -65,13 +65,14 @@ button:hover {
 .c_one {
   width: 100%;
   margin-top: 700px;
-  display: grid;
   grid-template-columns: 1.5fr 1fr;
+  grid-template-areas: "text_box img_box";
 }
 
 .text_box {
   background: white;
   padding: 80px;
+  grid-area: text_box;
 }
 
 .text_box_button {
@@ -111,6 +112,7 @@ button:hover {
   margin: auto;
   height: 100%;
   background-color: white;
+  grid-area: img_box;
 
   /* object-fit: cover; */
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
@@ -133,6 +135,7 @@ button:hover {
   justify-self: center;
   margin-top: 110px;
   margin-bottom: 80px;
+  
 }
 
 .ctwo_title > h2 {
@@ -161,13 +164,14 @@ button:hover {
 }
 
 .services {
-  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1em;
   margin-left: 141px;
   margin-right: 141px;
   margin-bottom: 80px;
 }
+
+
 .services_button {
   margin: 20px;
   font-size: 18px;
@@ -186,7 +190,7 @@ button:hover {
   background-color: #65ffbc;
   margin: 80px;
   width: auto;
-  display: grid;
+
   grid-template-columns: 1fr 1fr;
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2),
     0 6px 20px 0 rgba(255, 255, 255, 0.9);
@@ -262,3 +266,69 @@ button:hover {
   padding: 0px 20px;
   margin: 20px;
 }
+
+@media screen and (min-width: 1300px) {
+  .c_one, .box_cards, .c_two, .services {
+    display: grid;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .c_one {
+    grid-template-areas: "text_box" "img_box";
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .cards_title{
+    margin: auto;
+  }
+  .cards_title > h2 {
+    font-size: 40px;
+  }   
+  .p_img {
+        height: 400px;
+        width: 400px;
+     }
+
+}
+
+@media screen and (max-width: 700px) {
+
+  .cards_title > h2 {
+    font-size: 40px;
+  }   
+  .p_img {
+        height: 200px;
+        width: 200px;
+     }
+
+}
+
+@media screen and (max-width: 700px) {
+
+ .ctwo_title > h2 {
+   text-align: center;
+   font-size: 30px;
+ }
+  
+  .services {
+   margin: auto;
+   margin-bottom: 50px;
+  }
+  .box_cards {
+    display: grid;
+    margin: auto;
+  }
+  .cards_title > h2 {
+    font-size: 20px;
+  }   
+  .p_img {
+        height: 100%;
+        width: 100%;
+     }
+
+  
+
+}
+
