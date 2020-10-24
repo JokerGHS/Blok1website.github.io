@@ -1,0 +1,529 @@
+.jbg {
+    width: 100%;
+    background-image: url(images/IMG_amazing.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.divin {
+    background-color: rgba(255, 255, 255, 0.9);
+    grid-area: divin;
+    width: 100%;
+}
+
+.divin>h2 {
+    font-family: "Lobster Two", cursive;
+    font-size: 50px;
+    color: lightsalmon;
+    width: 100%;
+}
+
+.divin>h3 {
+    font-family: "Lobster Two", cursive;
+    font-size: 30px;
+    padding-bottom: 6px;
+    color: lightblue;
+    width: 100%;
+}
+
+.divin>p {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.secin {
+    width: 100%;
+    margin-top: 600px;
+
+    grid-template-columns: repeat(1, 1fr 3fr);
+    grid-template-areas: "divimg divin";
+}
+
+.imgdiv {
+    border-radius: 40px;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    margin-left: 10px;
+
+}
+
+.divimg {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding-top: 30px;
+    padding-bottom: 60px;
+    width: 100%;
+    grid-area: divimg;
+    text-align: center;
+}
+
+.omg1 {
+    width: 100%;
+
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    grid-template-areas: "imgst1 imgst2 imgst3";
+}
+
+.timein {
+    background-color: rgba(214, 211, 211, 0.9);
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    color: rgb(245, 126, 79);
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+.imgvr {
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    padding: 5px;
+    padding-top: 10px;
+    border-radius: 40px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    animation: slidein 3s;
+
+}
+
+.imgvr:hover {
+    transform: scale(1.05);
+}
+
+.imgnu {
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 40px;
+    padding: 5px;
+    padding-top: 10px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    animation: slidein 3s;
+}
+
+.imgnu:hover {
+    transform: scale(1.05);
+}
+
+.imgmid {
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 40px;
+    padding: 5px;
+    padding-top: 10px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    animation: slidein 3s;
+}
+
+.imgmid:hover {
+    transform: scale(1.05);
+}
+
+@keyframes slidein {
+    from {
+        transform: translateX(-2000px);
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+}
+
+
+.imgst {
+    background-color: rgba(214, 211, 211, 0.9);
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    color: rgb(1, 201, 174);
+    padding-bottom: 10px;
+
+}
+
+.imgst1 {
+    grid-area: imgst1;
+}
+
+.imgst2 {
+    grid-area: imgst2;
+}
+
+.imgst3 {
+    grid-area: imgst3;
+}
+
+/*conctact.css*/
+
+.bodcont {
+    background-image: url(images/mercure-discover-local-nl-bc45.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Raleway", sans-serif;
+    background-repeat: no-repeat;
+
+}
+
+.inp {
+    text-align: center;
+    background-color: rgba(0, 110, 255, 0.6);
+    color: white;
+    border-radius: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: none;
+}
+
+.divc1 {
+    margin: 100px;
+    color: white;
+    text-align: center;
+    font-size: large;
+    background-color: rgba(113, 173, 252, 0.8);
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.input-control {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin-bottom: 16px;
+}
+
+::placeholder {
+    color: white;
+}
+
+@media (max-width: 1100px) {
+    .divc1 {
+        margin: 0;
+    }
+
+}
+
+/* project */
+
+.secp1 {
+    background-image: url(images/1280px-Ryde_beach_at_sunrise_panorama.jpg);
+    width: 100%;
+
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-template-areas: "divp1 divvid1";
+}
+
+.secp2 {
+    background-image: url(images/gettyimages-580833893.jpg);
+    background-size: cover;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-template-areas: "divvid2 divp2";
+
+}
+
+.secp3 {
+    background-image: url(images/sunset.jpg);
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-template-areas: "divp3 divvid3";
+
+}
+
+.secp4 {
+    background-image: url(images/Sunset_2007-1.jpg);
+    background-size: cover;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-template-areas: "divvid4 divp4";
+
+}
+
+
+
+.ifp1 {
+    border-radius: 30px;
+    width: 560px;
+    height: 315px;
+}
+
+.ifp2 {
+    border-radius: 30px;
+    width: 560px;
+    height: 315px;
+}
+
+.ifp3 {
+    border-radius: 30px;
+    width: 560px;
+    height: 315px;
+}
+
+.ifp4 {
+    border-radius: 30px;
+    width: 560px;
+    height: 315px;
+}
+
+.divp1>h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+
+.divp2>h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+
+.divp3>h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+
+.divp4>h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+
+.divp1 {
+    grid-area: divp1;
+}
+
+.divp2 {
+    grid-area: divp2;
+}
+
+.divp3 {
+    grid-area: divp3;
+}
+
+.divp4 {
+    grid-area: divp4;
+}
+
+.divvid1 {
+    grid-area: divvid1;
+}
+
+.divvid2 {
+    grid-area: divvid2;
+}
+
+.divvid3 {
+    grid-area: divvid3;
+}
+
+.divvid4 {
+    grid-area: divvid4;
+}
+
+.headdiv {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    background-color: rgba(218, 255, 239);
+}
+
+.headdiv>h1 {
+    font-family: "Lobster Two", cursive;
+    font-size: 45px;
+    color: black;
+    text-align: center;
+}
+
+.headdiv>p {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    font-size: 19px;
+    padding-top: 10px;
+}
+
+
+.divp1>p {
+    font-family: "Raleway", sans-serif;
+}
+
+.divp2>p {
+    font-family: "Raleway", sans-serif;
+}
+
+.divp3>p {
+    font-family: "Raleway", sans-serif;
+}
+
+.divp4>p {
+    font-family: "Raleway", sans-serif;
+}
+
+.divp1 {
+    background-color: rgba(151, 247, 237, 0.4);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.divp2 {
+    background-color: rgba(68, 68, 163, 0.781);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.divp3 {
+    background-color: rgba(67, 88, 128, 0.4);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.divp4 {
+    background-color: rgba(229, 193, 145, 0.4);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.inp:hover {
+    animation: shake 0.82s;
+}
+
+@keyframes shake {
+
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    10%,
+    90% {
+        transform: translate3d(-1px, 1px, 0);
+    }
+
+    20%,
+    80% {
+        transform: translate3d(2px, -1px, 0);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, -2px, 0);
+    }
+
+    40%,
+    60% {
+        transform: translate3d(4px, 2px, 0);
+    }
+}
+
+@media (min-width: 1300px) {
+    .secp1 {
+
+        align-content: center;
+        display: grid;
+    }
+
+    .secp2 {
+
+        align-content: center;
+        display: grid;
+    }
+
+    .secp3 {
+        display: grid;
+        align-content: center;
+    }
+
+    .secp4 {
+        display: grid;
+        align-content: center;
+    }
+}
+
+@media (max-width: 1300px) {
+    .secp1 {
+        grid-template-areas: "divp1""divvid1";
+        align-content: center;
+        grid-template-rows: 1fr;
+
+    }
+
+    .secp2 {
+        grid-template-areas: "divp2""divvid2";
+        align-content: center;
+        grid-template-rows: 1fr;
+    }
+
+    .secp3 {
+        grid-template-areas: "divp3""divvid3";
+        align-content: center;
+        grid-template-rows: 1fr;
+    }
+
+    .secp4 {
+        grid-template-areas: "divp4""divvid4";
+        align-content: center;
+        grid-template-rows: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .ifp1 {
+        width: 250px;
+        height: 141px;
+    }
+
+    .ifp2 {
+        width: 250px;
+        height: 141px;
+    }
+
+    .ifp3 {
+        width: 250px;
+        height: 141px;
+    }
+
+    .ifp4 {
+        width: 250px;
+        height: 141px;
+    }
+}
