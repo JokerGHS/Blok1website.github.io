@@ -109,7 +109,7 @@
   margin: 20px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1045px) {
   .nav_font {
     font-size: 10px;
 
@@ -134,7 +134,7 @@
 
 }
 
-@media (max-width: 510px) {
+@media (max-width: 530px) {
   .nav_font {
     font-size: 7px;
   }
@@ -144,8 +144,8 @@
   }
 }
 
-@media(max-width: 280px) {
+@media(max-width: 360px) {
   .nav_font {
-    font-size: 5px;
+    font-size: 3px;
   }
 }
