@@ -78,9 +78,6 @@
         display: grid;
     }
 
-    .logo {
-        width: 100%;
-    }
 }
 
 @media (max-width: 1000px) {
@@ -88,6 +85,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .logo {
+        width: 100%;
     }
 }
 
