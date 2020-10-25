@@ -28,8 +28,10 @@
     font-size: 90px;
 }
 
-.logo {
+.hlogo {
     width: 500px;
+    cursor: pointer;
+    margin-right: auto;
 }
 
 #jacco:hover {
@@ -87,7 +89,7 @@
         align-items: center;
     }
 
-    .logo {
+    .hlogo {
         width: 100%;
     }
 }
@@ -299,20 +301,7 @@ button:hover {
 }
 
 
-.logo_footer {
-    margin-top: 100px;
-    height: 80px;
-}
 
-.menu_footer {
-    list-style: none;
-}
-
-.menu_footer>li {
-    display: inline-block;
-    padding: 0px 20px;
-    margin: 20px;
-}
 
 @media screen and (min-width: 1300px) {
 
